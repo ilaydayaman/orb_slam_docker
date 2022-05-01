@@ -16,7 +16,13 @@ git submodule update --init --recursive
 
 4. Install [nvidia container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) (optional)
 
-5. Build container - after making sure you have the previliges to run the code (chmod u+x ./build_docker.sh & chmod 744 ./build_docker.sh). The file on /thirdparty/makedeps.sh might need the same configuration. 
+5. After making sure you have the previliges to run the code 
+ 
+```console
+chmod u+x ./build_docker.sh & chmod 744 ./build_docker.sh 
+```
+
+The file on /thirdparty/makedeps.sh might need the same configuration. Build container:
 
 ```console
 ./build_docker.sh
