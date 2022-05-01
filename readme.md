@@ -6,7 +6,7 @@
 git clone --recursive https://github.com/ilaydayaman/orb_slam_docker
 ```
 
-2. Initialize submodules in the folder Girhub repository is downloaded
+2. Initialize submodules in the folder Github repository is downloaded
 
 ```console
 git submodule update --init --recursive
